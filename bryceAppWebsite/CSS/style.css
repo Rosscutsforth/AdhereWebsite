@@ -1,0 +1,58 @@
+/* Fonts */
+
+@import url(https://fonts.googleapis.com/css?family=raleway);
+@import url(https://fonts.googleapis.com/css?family=Lato);
+
+/* main css */
+
+html{
+  background-color: #EEEEFF
+}
+
+body{
+  margin: 0px;
+  padding: 0px;
+}
+
+header{
+  border:;
+  background-color: #AAAAFF;
+  font-family: Lato;
+  text-align: center;
+  justify-content: center;
+  height: 100px;
+  margin: 0px;
+}
+
+.logoImage{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.mainTitle{
+  padding: 15px;
+}
+
+article{
+  font-family: lato;
+  text-align: center;
+}
+
+.mainInfoContainer{
+  display: flex;
+  background-color: lightgrey;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.mainInfo{
+  border: solid;
+  height: 100px;
+  width: 90%;
+  padding: 10px;
+  margin: 10px;
+}

@@ -1,0 +1,27 @@
+/* Fonts */
+
+@import url(https://fonts.googleapis.com/css?family=Raleway);
+@import url(https://fonts.googleapis.com/css?family=Lato);
+
+/* main styling */
+
+html{
+  background-color: #DDDDDD;
+}
+
+body{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  margin: 10px;
+  padding: 10px;
+  font-family: Lato;
+  color: #111111;
+}
+
+.secondBreak{
+  width: 400px;
+  background-color: black;
+  height: 1px;
+}

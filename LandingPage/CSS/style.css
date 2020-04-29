@@ -6,22 +6,79 @@
 /* main styling */
 
 html{
-  background-color: #DDDDDD;
+  background-color: #060704;
+  background-image: url('../Images/fitnessDark.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  width:auto;
+  height: auto;
 }
 
 body{
   display: block;
+  font-weight: 10;
   margin-left: auto;
   margin-right: auto;
   text-align: center;
   margin: 10px;
   padding: 10px;
-  font-family: Lato;
-  color: #111111;
+  font-family: Raleway;
+  color: #CCCCDD;
+}
+
+h3{
+  letter-spacing: 3px;
+  font-size: 16px;
+}
+
+.ComingSoon{
+  font-size: 45px;
+  font-weight: 1000;
+  letter-spacing: 10px;
+  word-spacing: 10px;
 }
 
 .secondBreak{
-  width: 400px;
+  width: 75px;
   background-color: black;
-  height: 1px;
+  height:;
+}
+
+/* Contact Button
+green hex: #419a1c
+blue hex: #1761a0
+ */
+
+.ContactUs{
+  background-color: #419a1c;
+  padding-top: 5px;
+  color: black;
+  font-family: Lato;
+  font-size: 18px;
+  font-weight: bold;
+  border-radius: 3%;
+  height: 30px;
+  width: 200px;
+  display: block;
+  text-align: center;
+  margin-top: 75px;
+  margin-left: auto;
+  margin-right: auto;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.ContactUs:hover{
+  opacity: 70%;
+  background-color: black;
+  color: white;
+}
+
+.bryceMail{
+  text-decoration: none;
+  color: black;
+}
+
+.bryceMail:hover{
+  color: white;
 }

@@ -1,0 +1,339 @@
+
+/* Fonts */
+
+@import url(https://fonts.googleapis.com/css?family=Raleway);
+@import url(https://fonts.googleapis.com/css?family=Lato);
+@import url(https://fonts.googleapis.com/css?family=Oswald);
+@import url(https://fonts.googleapis.com/css?family=Montserrat);
+
+/* Logo Hex Colors
+
+green hex: #419a1c
+blue hex: #1761a0 */
+
+/* main css */
+
+html{
+  background-image: linear-gradient(to top left, white, white);
+  margin: 0px;
+  padding: 0px;
+}
+
+body{
+  margin: 0px;
+  padding: 0px;
+}
+
+/* Header Styling */
+
+header{
+  background-color: white;
+  font-family: Lato;
+  height: auto;
+  margin: 0px;
+  overflow: hidden;
+  padding: 0px;
+  position: relative;
+  top: -18px;
+  text-align: center;
+  z-index: 1;
+}
+
+.headerDiv{
+  display: flex;
+  margin: 0px 25px;
+}
+
+.headerFlex{
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  height: 78px;
+  justify-content: flex-end;
+  width: 100%;
+}
+
+.flexItemParent{
+  text-decoration: none;
+  height: auto;
+  margin: 0px 15px;
+  width: auto;
+}
+
+.headerFlexItem{
+  color: #001500;
+  height: 100%;
+  font-family: Montserrat;
+  font-weight: normal;
+  font-size: 17px;
+  letter-spacing: 5px;
+  margin-bottom: 10px;
+  text-decoration: none;
+  text-transform: uppercase;
+  width: auto;
+}
+
+#logoImage{
+}
+
+.sticky{
+  background-color: white;
+  box-shadow: 5px 0px 5px grey;
+  opacity: .8;
+  position: fixed;
+  top: 0;
+  transition: 1s;
+  width: 100%;
+}
+
+.sticky + .missionStatement{
+  margin-top: 78px;
+}
+
+.sticky + .seattleImage{
+  margin-top: 78px;
+}
+
+.sticky + .personalImagesFlex{
+  margin-top: 78px;
+}
+
+/* .currentPage{
+  border-bottom-style: solid;
+  border-bottom-color: blue;
+  border-bottom-width: thin;
+} */
+
+/* Mission Statement Styling */
+
+.missionStatement{
+  background-image: url("../images/main_crunch.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #419a1c;
+  font-family: Montserrat;
+  height: 600px;
+  width: 100%;
+  text-align: center;
+}
+
+.statement{
+  font-size: 25px;
+  letter-spacing: 7px;
+  margin: 0px;
+  padding-top: 10%;
+}
+
+.subStatement{
+  color: #333333;
+  font-size: 16px;
+  letter-spacing: 10px;
+}
+
+/* Main Flex Box */
+
+.mainInfoContainer{
+  background-color:;
+  color: #419a1c;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  font-family: Raleway;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+  text-align: center;
+  width: 90%;
+}
+
+.mainInfoParent{
+  color: #419a1c;
+  display: flex;
+  flex-direction: row;
+  height: auto;
+  width: 95%;
+  padding: 10px;
+  margin: 10px;
+}
+
+.mainInfoImageChild{
+  background-image: url('../images/black_square.png');
+  height: 300px;
+  width: 50%;
+}
+
+.mainInfoChild{
+  height: auto;
+  width: 50%;
+}
+
+.mainInfo{
+  border:;
+  color: #333333;
+}
+
+/* Image CSS */
+
+#logoImage{
+  margin-left: 0px;
+  margin-right: 0px;
+  height: 75px;
+  width: auto;
+}
+
+.appPreview{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Hover Styling for MAIN HTML */
+
+.headerFlexItem:hover{
+  color: #1761a0;
+  text-shadow: 2px 2px 6px #1761a0;
+}
+
+header:hover{}
+
+
+
+/* Styling for ABOUT HTML */
+
+.personalImagesFlex{
+  display: flex;
+  flex-direction: column;
+}
+
+.personalImages{
+  height: 250px;
+  padding: 25px;
+  width: 250px;
+  vertical-align: middle;
+}
+
+
+
+/* Styling for CONTACT HTML */
+
+.seattleImage{
+  text-align: center;
+  background-clip: padding-box;
+  background-image: url("../images/seattle_bay.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 600px;
+}
+
+.seattleText{
+  border-bottom-style: solid;
+  border-right-style: solid;
+  display: none;
+  font-family: Oswald;
+  font-weight:lighter;
+  height: 50px;
+  left: 10%;
+  letter-spacing: 7px;
+  margin: 0px;
+  padding: 0px;
+  position: relative;
+  text-transform: uppercase;
+  top: 25%;
+  width: 250px;
+  z-index: 0;
+}
+
+/* Hover styling for CONTACT HTML */
+
+.seattleImage:hover{
+
+}
+
+/* Footer Styling */
+
+.foota{
+  box-shadow: 5px 0px 5px grey;
+  margin-bottom: 15px;
+  margin-top: 100px;
+  padding: 1% 0px 2%;
+}
+
+.disclaimer{
+  color: grey;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: lighter;
+}
+
+#copyright{
+  margin: 0px;
+  text-shadow: 0px 0px 0px white;
+}
+
+.footerFlex{
+  align-items: center;
+  display: flex;
+  padding: 50px 0px;
+  justify-content: center;
+}
+
+.footerFlexItem{
+  align-self: flex-start;
+  font-family: Montserrat;
+  margin: ;
+  width: 33%;
+}
+
+footer h2{
+  font-family: Montserrat;
+  margin: 0px;
+  text-transform: capitalize;
+}
+
+.fa{
+  margin: 25px 10px;
+  text-decoration: none;
+}
+
+.fa-app-store{
+  color: blue;
+}
+
+.fa-google-play{
+  color: pink;
+}
+
+.fa-instagram{
+  color: black;
+}
+
+.fa-linkedin{
+  color: black;
+}
+
+.toTop{
+  color: black;
+  font-family: Montserrat;
+  font-size: 14px;
+  letter-spacing: 3px;
+  padding: 5px 10px;
+  text-decoration: none;
+}
+
+/* FOOTER Hover Styling */
+
+.fa:hover{
+  text-shadow: 2px 2px 5px grey;
+}
+
+.toTop:hover{
+  transition: .1s;
+  border-left: solid;
+  border-right: solid;
+  border-width: thin;
+  color: #1761a0;
+  letter-spacing: 3.5px;
+}
